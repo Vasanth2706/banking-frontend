@@ -1,0 +1,23 @@
+.grow {
+  flex-grow: 1;
+}
+
+.button {
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.title {
+  display: none;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+@media (min-width: 600px) {
+  .title {
+    display: block;
+  }
+}
